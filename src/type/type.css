@@ -1,0 +1,35 @@
+a {
+    color: #0FA2D0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #064F66;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2em;
+    margin: 1em 0;
+}
+
+dt {
+    color: #777;
+}
+
+blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+}
+
+caption, figcaption {
+    font-size: 0.8em;
+}
+
+code {
+    background: #000;
+    color: #0f0;
+    padding: 0.2em 0.4em;
+    font-weight: normal;
+}

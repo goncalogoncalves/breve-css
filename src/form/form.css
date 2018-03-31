@@ -1,0 +1,19 @@
+.bv-form {
+    width: 100%
+}
+
+.bv-form .bv-form-element {
+    margin-bottom: 1em;
+    width: 100%
+}
+
+.bv-form-horizontal {
+    width: 100%;
+    min-height: 50px;
+}
+
+.bv-form-horizontal .bv-form-element {
+    margin-bottom: 1em;
+    margin-right: 2em;
+    float: left;
+}

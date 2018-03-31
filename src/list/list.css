@@ -1,0 +1,9 @@
+ul {
+    margin-bottom: 1em;
+    list-style: none;
+    margin-left: 0;
+}
+
+ul:first-child {
+    padding-left: 0;
+}

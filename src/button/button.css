@@ -1,0 +1,79 @@
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+    display: inline-block;
+    zoom: 1;
+    line-height: 1em;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #222;
+    border: none;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+    height: 35px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+    background-color: #dddddd;
+}
+
+button:focus, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+    outline: 0;
+}
+
+button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+    color: #111;
+}
+
+button:disabled, input[type="submit"]:disabled, input[type="button"]:disabled, input[type="reset"]:disabled {
+    background-color: #f0f0f0;
+    color: #999999;
+    cursor: not-allowed;
+}
+
+.bv-bt-1 {
+    background-color: #3f8eb9;
+    color: #fff;
+    border: 1px solid #45abe3;
+    border-radius: 3px;
+}
+
+.bv-bt-1:hover {
+    background-color: #3B83AA;
+    color: #fff;
+    border: 1px solid #3B83AA;
+    border-radius: 3px;
+}
+
+.bv-bt-2 {
+    background-color: #6dbad8;
+    color: #fff;
+    border: 1px solid #95d9f3;
+    border-radius: 3px;
+}
+
+.bv-bt-2:hover {
+    background-color: #5ea1bc;
+    color: #fff;
+    border: 1px solid #5ea1bc;
+    border-radius: 3px;
+}
+
+.bv-bt-0 {
+    background-color: transparent;
+}
+
+.bv-bt-0:hover {
+    background-color: transparent;
+    color: #666;
+}

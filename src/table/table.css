@@ -1,0 +1,67 @@
+.bv-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #eee;
+}
+
+.bv-table td,
+.bv-table th {
+    border-left: 1px solid #eee;
+    border-width: 0 0 0 1px;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+.bv-table thead {
+    background-color: #eee;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.bv-table td {
+    background-color: transparent;
+}
+
+.bv-table-odd td {
+    background-color: #fbfbfb;
+}
+
+.bv-table-striped tr:nth-child(2n-1) td {
+    background-color: #fbfbfb;
+}
+
+.bv-table-bordered td {
+    border-bottom: 1px solid #eee;
+}
+
+.bv-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+.bv-table-horizontal td,
+.bv-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.bv-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+.bv-table-compact th {
+    padding: 0.2em 0.3em;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.bv-table-compact td {
+    padding: 0.1em 0.2em;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+
