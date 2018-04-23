@@ -8,14 +8,14 @@ var server = lr();
 
 
 gulp.task('styles', function() {
-	gulp.src(['src/reset/reset.css','src/base/base.css','src/button/button.css','src/form/form.css','src/grid/grid.css','src/table/table.css','src/utils/utils.css','src/list/list.css','src/type/type.css'])
+	gulp.src(['src/reset/reset.css','src/base/base.css','src/button/button.css','src/form/form.css','src/table/table.css','src/utils/utils.css','src/list/list.css','src/type/type.css'])
 	.pipe(concat('breve.css'))
 	.pipe(minifyCSS())
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(gulp.dest('dist'))
 	.pipe(refresh(server));
 
-	gulp.src(['src/reset/reset.css','src/base/base.css','src/button/button.css','src/form/form.css','src/grid/grid.css','src/table/table.css','src/utils/utils.css','src/list/list.css','src/type/type.css'])
+	gulp.src(['src/reset/reset.css','src/base/base.css','src/button/button.css','src/form/form.css','src/table/table.css','src/utils/utils.css','src/list/list.css','src/type/type.css'])
 	.pipe(concat('breve.css'))
 	.pipe(gulp.dest('dist'))
 	.pipe(refresh(server));
